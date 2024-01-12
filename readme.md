@@ -23,11 +23,11 @@ Build a Portfolio website in 24 hours to showcase the following:
 
 ## Homepage visuals
 
-        <img src="ASSETS/screenshot 1.PNG" alt="">
-        <img src="ASSETS/screenshot 2.PNG" alt="">
-        <img src="ASSETS/screenshot 3.PNG" alt="">
-        <img src="ASSETS/screenshot 4.PNG" alt="">
-        <img src="ASSETS/screenshot 5.PNG" alt="">
+<img src="ASSETS/screenshot 1.PNG" alt="">
+<img src="ASSETS/screenshot 2.PNG" alt="">
+<img src="ASSETS/screenshot 3.PNG" alt="">
+<img src="ASSETS/screenshot 4.PNG" alt="">
+<img src="ASSETS/screenshot 5.PNG" alt="">
 
 
 
