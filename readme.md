@@ -1,5 +1,5 @@
-# Project-05
-Portfolio website built in HTML and CSS
+# Portfolio website built in HTML and CSS
+ 
 
 
 This was a website built to showcase my technical skills, web design skills.
