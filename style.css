@@ -117,6 +117,58 @@
         margin-top: 300px;
     }
   }
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#loading-line {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #1c1ce3; 
+    z-index: 9999;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.scroll-animation {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s, transform 0.8s;
+}
+
+.scroll-animation.show {
+    opacity: 1;
+    transform: translateY(10px);
+}
+
+  ::-webkit-scrollbar {
+    width: 0.9vw;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #1c1ce3;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000075;
+
+  }
+  html {
+    scrollbar-color: rgb(255, 250, 201) #0a0a0a;
+    scrollbar-width: thin;
+  }
 body{
     background-color: white;
     /* margin: 0; */
