@@ -17,6 +17,7 @@ Build a Portfolio website in 24 hours to showcase the following:
 
 * HTML5
 * CSS3
+* JavaScript
 * Git
 * GitHub
 
