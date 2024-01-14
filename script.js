@@ -56,3 +56,28 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 1000);
     }, 2000);
 });
+
+
+
+// Navbar Connects to sections JS
+
+document.addEventListener('DOMContentLoaded', function () {
+    const navLinks = document.querySelectorAll('.menu-section a');
+  
+    navLinks.forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+  
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+  
+        window.scrollTo({
+          top: targetElement.offsetTop,
+          behavior: 'smooth'
+        });
+      });
+    });
+  });
+
+  
+

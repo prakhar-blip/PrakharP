@@ -118,7 +118,7 @@
     }
   }
 
-  body {
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -136,7 +136,6 @@
     transform: scaleX(0);
     transition: transform 0.5s ease-in-out;
 }
-
 
 .scroll-animation {
     opacity: 0;
@@ -253,6 +252,9 @@ body{
 .menu-section .contact:hover{
     background-color: #868e96 !important;
 }
+
+
+  
 .container-intro{
     animation-name: intro;
     animation-duration: 0.1s;
