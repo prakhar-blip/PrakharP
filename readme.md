@@ -21,9 +21,6 @@ Build a Portfolio website in 24 hours to showcase the following:
 * Git
 * GitHub
 
-## Open with Link
-
-<a href="https://prakhar-blip.github.io/PrakharP/"></a>
 
 
 ## Homepage visuals
