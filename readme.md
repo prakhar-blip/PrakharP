@@ -21,6 +21,10 @@ Build a Portfolio website in 24 hours to showcase the following:
 * Git
 * GitHub
 
+## Open with Link
+
+<a href="https://prakhar-blip.github.io/PrakharP/"></a>
+
 
 ## Homepage visuals
 
@@ -32,6 +36,7 @@ Build a Portfolio website in 24 hours to showcase the following:
 
 ## Features in Webpage
 
+* Responsive Design
 * Custom Scroll-bar
 * Custom Loading Top Line/Bar
 * Working Links
@@ -45,4 +50,4 @@ Build a Portfolio website in 24 hours to showcase the following:
 * Copy and paste in one folder
 * Open index file with any browser
 
-## Note :- Webpage was not ready for 1024:431 and below dimensions.
+## Note :- Webpage was ready for All Size screens except Tablet Screens..
