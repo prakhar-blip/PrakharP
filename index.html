@@ -11,9 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://db.onlinewebfonts.com/c/4972bc805329380c98be5ccf855ab77b?family=Agustina+Signature" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dheereshagrwal/colored-icons@1.7.3/src/app/ci.min.css"/>
+    
+
 </head>
 <body>
-    
+
     <div id="loading-line"></div>
     <div class="header container name-heading scroll-animation">
         <div class="top-bar container">
@@ -45,7 +47,8 @@
         <div class="contain-intro container">
             <div class="left-contain container">
                 <div class="name-heading ">
-                    Hy all, This is <div class="prkhr">Prakhar</div><div class="hello">👋</div>
+                    Hy all, This is <br><span>Prakhar</span><div class="prkhr">Prakhar</div>
+                    <div class="hello">👋</div> 
                 </div>
                 <div class="name-para">
                 Hard working BCA engineering student from <a target="_blank"href="https://sageuniversity.in/"><b>Sage University Indore</b></a> in my 1st semester. I'm also a future full stack developer.🚀 I’ve found my passion in web development. I like spending time in coding and encountering new challenges. I’m highly adaptable to new challenges and projects. I'm a Junior Scholar at Govt. Model H.S School Sardarpur and that is the best thing that happened to me.
@@ -94,7 +97,7 @@
                 </div>
                 <div class="what-i-do-para para">⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications
                     <br><br>
-                    ⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks
+                    ⚡ Progressive Web Applications (PWA) in normal and SPA Stacks
                     <br><br>
                     ⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean</div>
             </div>
@@ -106,82 +109,97 @@
             <div class="bar-section">
                 <div class="bar-proficiency para">Frontend/Design
                     <div class="frontend-bar-back">
-                        <div class="frontend-bar"></div>
+                        <div class="frontend-bar" id="frontend-bar"></div>
                     </div>
                 </div>
                 <div class="bar-proficiency para">Back-End
                     <div class="frontend-bar-back">
-                        <div class="frontend-bar backend"></div>
+                        <div class="frontend-bar backend" id="backend"></div>
                     </div>
                 </div>
                 <div class="bar-proficiency para">Programming
                     <div class="frontend-bar-back">
-                        <div class="frontend-bar programming"></div>
+                        <div class="frontend-bar programming" id="programming"></div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="right-contain">
-            <img src="ASSETS/proficiency.svg" alt="">
+            <img src="ASSETS/proficiency.svg" class="img-fluid" alt="...">
         </div>
-    </div>  
-    <div id="work-experience" class="container-education container name-heading scroll-animation">
+    </div>   
+   <div id="work-experience" class="container-education container name-heading scroll-animation">
         <div class="education-container">
             <div class="heading">Educational Details</div>
             <div class="sage-education">
                 <div class="logo-education">
-                    <img src="ASSETS/sage_logo-removebg-preview.png"    alt="">
+                    <img src="ASSETS/sage_logo-removebg-preview.png"  alt="">
                     <img src="ASSETS/Sunstone logo.webp" alt="">
                 </div>
                 <div class="sage-details">
-                    <div class="heading sage-head">Sage University  (SUNSTONE)</div>
+                    <div class="heading sage-head">Sage University (SUNSTONE)</div>
                     <div class="degree-sage">Bachelor of Computer Application BCA</div>
                     <div class="degree-duration para">July 2023 - August    2026
                         <br>
-                        Participated in Web Development workshop and    published the portfolio you're seeing now.
-                    </div>
+                        Participated in Web Development workshop and published the portfolio you're seeing now.
+                    </div> 
                 </div>
             </div>
             <br><br><br><br>
         </div>
+    </div>
+
+    <div class="shiksha-container">
+        <div class="heading">Educational Details</div>
+        <div class="sage-shiksha">
+            <div class="logo-shiksha">
+                <img src="ASSETS/sage_logo-removebg-preview.png"  alt="">
+                <img src="ASSETS/Sunstone logo.webp" alt="">
+            </div>
+            <div class="sage-shiksha-details">
+                <div class="heading sage-shiksha-head">Sage University <br>(SUNSTONE)</div>
+                <div class="degree-sage-shiksha">Bachelor of Computer Application BCA</div>
+                <div class="degree-duration-shiksha para">July 2023 - August 2026
+                    <br>
+                    Participated in Web Development workshop and published the portfolio you're seeing now.
+                </div> 
+            </div>
+        </div>
+        <br><br><br><br>
     </div>
     <div id="open-source" class="open-source-project container name-heading scroll-animation">
         <div class="heading">
             Open Source Projects
         </div>
         <div class="cards">
-            <div class="card-1">
-                <div class="logo-card1">
-                    <img src="ASSETS/Logotip-Usability-Hub.webp" alt="">
+            <div class="project-card">
+                <div class="img">
+                <img src="ASSETS/Logotip-Usability-Hub.webp" alt="Project Image">
                 </div>
-                <div class="heading-card">
-                    Usability Hub Clone
+                <div class="project-info">
+                  <h3>Usability-hub-Clone</h3>
+                  <p>I created a clone webpage of Usability Hub</p>
+                <div class="link">
+                  <a href="https://github.com/prakhar-blip/Usability-hub-Clone" target="_blank">View on GitHub</a>
                 </div>
-                <div class="para-card">
-                    Created clone of usabilityhub using HTML & CSS.
-                </div><br><br>
-                <div class="for-code">
-                    <a target="_blank"href="https://github.com/prakhar-blip/Usability-hub-Clone">Visit Website</a>
                 </div>
             </div>
-            <div class="card-2">
-                <div class="logo-card2">
-                    <img src="ASSETS/MTU_Friedrichshafen_logo.svg.png" alt="">
+            <div class="project-card2">
+                <div class="img">
+                <img src="ASSETS/MTU_Friedrichshafen_logo.svg.png" alt="Project Image">
                 </div>
-                <div class="heading-card2">
-                    mtu Solution - Clone
+                <div class="project-info">
+                  <h3>MTU-Rolls-Royce-Clone</h3>
+                  <p>I created a clone webpage of MTU-Rolls-Royce-Clone <b>But the was not done yet.</b></p>
+                <div class="link">
+                  <a href="https://github.com/prakhar-blip/Usability-hub-Clone" target="_blank">View on GitHub</a>
                 </div>
-                <div class="para-card2">
-                    Created clone of mtu solution ls-royce <b>but the work in progress.</b>
-                </div>
-                <div class="for-code">
-                    <a target="_blank"href="https://github.com/prakhar-blip/MTU-Rolls-Royce-Clone">Visit Website</a>
                 </div>
             </div>
-
         </div>
     </div>
-    <div id="reach-out" class="reach-out-to-me container name-heading scroll-animation">
+    
+   <div id="reach-out" class="reach-out-to-me container name-heading scroll-animation">
         <div class="left-section">
             <div class="heading">
                 Reach Out to me!
@@ -195,7 +213,7 @@
             <div class="location">
                 <i class="fa-solid fa-map-pin"></i>Indore, Bharat 
                 <i class="fa-solid fa-phone-volume"></i>+91 9098879642
-                <i class="fa-solid fa-envelope"></i>    carryzee735@gmail.com
+                <i class="fa-solid fa-envelope"></i>   carryzee735@gmail.com
             </div>
             <div class="opportunities location">Open for opportunities: Yess
             </div>
@@ -217,10 +235,7 @@
         <div class="para container">Made with 🧡 by Prakhar Sharma</div>
     </footer>
 
-    <div class="work-not-done ">
-        Work in progress for this screen size.
-    </div>
-
+    
 
 
 
